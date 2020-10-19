@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= <device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><b>Nhập mật khẩu vào đây</b></p>
+    <input id="password" type="text">
+    <input type="button" id="nutbam" onclick="vailua()" value="Kiemtra">
+    <script>
+        function vailua(){
+        let pwd = document.getElementById("password").value
+        if (pwd == "vungoimora"){
+            alert("Xin chuc mung")
+        } else {
+            alert("Sai roi")
+        }
+        }
+    </script>
+</body>
+</html>
